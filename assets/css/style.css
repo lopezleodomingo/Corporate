@@ -1,0 +1,117 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+h1, p {
+	background-color: lightgrey;
+}
+
+em, strong {
+	background-color: lightblue;
+	/*display:block creates own line*/
+	/*display: block*/
+}
+
+	/*padding: 50px;*/
+/*	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+	padding-left: 40px;*/
+.menu{
+	/*clockwise short cut: top -> right -> bottom -> left*/
+/*	padding: 10px 20px 30px 40px;*/ 
+
+	/*border: size style color;*/
+	border-top: 2px solid #5D6063;
+	padding: 50px;
+	text-align: center;
+}
+.nav {
+	display: inline-block;
+	border: 1px solid black;
+	margin-left: 20px;
+	background-color: rgba(51,25,0,0.5);
+	display: block
+	width: 100px;
+	padding:20px;
+	color: white;
+}
+p {
+	padding: 20px;
+	margin: 50px;
+	text-align: center;
+}
+
+strong{
+	margin: 50px;
+
+}
+
+/*use percentage to adjust value of width and height responsive*/
+#container{
+	background-color: rgba(51,25,0,0.5)
+	padding: 50px;
+	border: 2px solid #5D6063;
+	border-radius: 50px;
+	width: 50%;
+	margin: 0 auto;
+	padding-top: 5px;
+	opacity: .8;
+}
+	#container2{
+	background-color: rgba(51,25,0,0.5)
+	padding: 50px;
+	border: 2px solid #5D6063;
+	border-radius: 50px;
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 5px;
+	opacity: .8;
+
+}
+	#container3{
+	background-color: rgba(51,25,0,0.5)
+	padding: 50px;
+	border: 2px solid #5D6063;
+	border-radius: 50px;
+	width: 95%;
+	margin: 0 auto;
+	padding-top: 5px;
+	opacity: .8;
+
+}
+
+
+	
+
+
+.words{
+	border-radius: 40px;
+}
+
+span {
+	color: red;
+	font-weight: bold;
+}
+
+a:link {
+	color :white;
+	text-decoration: none;
+}
+
+a:visited {
+	color:white;
+}
+a:hover {
+	color :grey;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
